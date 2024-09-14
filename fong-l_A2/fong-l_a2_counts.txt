@@ -1,0 +1,2 @@
+      Line count: 6 #This is the number of lines containing "Good luck, babe"
+     Word count: 78 #This is the total number of words in the 6 lines.
