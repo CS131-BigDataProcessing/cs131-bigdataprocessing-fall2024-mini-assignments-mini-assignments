@@ -1,0 +1,16 @@
+  995  git add Desktop/CS\ 131/Collaborators.md\n
+  996  cp age.sh ~/Desktop/\ncp temperature.sh ~/Desktop/\n
+  997  exit
+  998  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles\n
+  999  cd CS131_fa24_datafiles/Lec02\n
+ 1000  exit
+ 1001  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles\n
+ 1002  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles\n
+ 1003  cd CS131_fa24_datafiles/Lec02\n
+ 1004  grep -o '\bwor\w*' goodluck.txt\n
+ 1005  grep -o '\w*dred\w*' goodluck.txt\n
+ 1006  grep "Good luck, babe" goodluck.txt\n
+ 1007  grep "Good luck, babe" goodluck.txt | wc -l  # Line count\ngrep "Good luck, babe" goodluck.txt | wc -w  # Word count\n
+ 1008  grep "Good luck, babe" goodluck.txt | wc -l > JoshiJ_a2_counts.txt\ngrep "Good luck, babe" goodluck.txt | wc -w >> JoshiJ_a2_counts.txt\n
+ 1009  vi JoshiJ_a2_counts.txt\n
+ 1010  cat JoshiJ_a2_counts.txt\n
