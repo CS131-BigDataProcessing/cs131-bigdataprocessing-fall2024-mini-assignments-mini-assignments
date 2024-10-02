@@ -1,0 +1,16 @@
+ 1082  ls
+ 1083  mv smith-j_a2_counts.txt
+ 1084  mv smith-j_a2_counts.txt trash
+ 1085  ls
+ 1086  grep -Fx "Good luck, babe" goodluck.txt | wc -l > sun_ja2_counts.txt
+ 1087  ls
+ 1088  mv sun_ja2_counts.txt
+ 1089  mv sun_ja2_counts.txt trash
+ 1090  ls
+ 1091  vim sun_j_a2_counts.txt
+ 1092  vim sun_j_a2_counts.txt
+ 1093  grep -Fx "Good luck, babe" filename.txt | wc -w >> sun_ja2_counts.txt
+ 1094  grep -Fx "Good luck, babe" goodluck.txt | wc -w >> sun_ja2_counts.txt
+ 1095  vim sun_j
+ 1096  ls
+ 1097  vim sun_ja2_counts.txt
