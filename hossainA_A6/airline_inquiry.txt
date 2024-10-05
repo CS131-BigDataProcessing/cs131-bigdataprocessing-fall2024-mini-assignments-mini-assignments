@@ -1,0 +1,31 @@
+1. The airlines are as follows:
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+The awk command used: $cat airline_stats.csv | awk -F ',' '{print $4}' | sort | uniq
+
+
+2. a) The airlines are
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+
+The awk command: $cat airline_stats.csv | awk -F ',' '$1+0 > 10 {print $4}' |sort |uniq
+
+2. b) The airlines are:
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+
+The awk command used: $cat airline_stats.csv | awk -F ',' -v Threshold=15 '$1+0 > Threshold {print $4}' |sort |uniq
+
+

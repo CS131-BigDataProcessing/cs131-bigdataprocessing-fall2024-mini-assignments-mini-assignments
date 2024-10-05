@@ -1,0 +1,58 @@
+  172  cd ..
+  173  pwd
+  174  ls
+  175  cd Documents/
+  176  ls
+  177  cd GitHub/
+  178  ls
+  179  cd mini-assignments-AfrinHossai/
+  180  ls
+  181  cd hossainA_A6
+  182  ls
+  183  pwd
+  184  cd ../..
+  185  ls
+  186  pwd
+  187  cd ..
+  188  ls
+  189  cd ..
+  190  ls
+  191  cd Documents
+  192  ls
+  193  cd Downloads
+  194  pwd
+  195  cd ..
+  196  ls
+  197  cd Downloads
+  198  ls
+  199  mv airline_stats.csv /home/afrin/Documents/GitHub/mini-assignments-AfrinHossai/hossainA_A6/airline_stats.csv
+  200  ls
+  201  pwd
+  202  cd ..
+  203  ls
+  204  cd Documents
+  205  ls
+  206  cd GitHub/
+  207  ls
+  208  cd mini-assignments-AfrinHossai/
+  209  ls
+  210  cd hossainA_A6
+  211  ls
+  212  cat airline_stats.csv 
+  213  cat airline_stats.csv | awk ',' '{print $4}'
+  214  cat airline_stats.csv | awk -F ',' '{print $4}'
+  215  cat airline_stats.csv | awk -F ',' '{print $4}' | uniq
+  216  cat airline_stats.csv | awk -F ',' '{print $4}' | sort | uniq
+  217  cat airline_stats.csv | awk -F ',' '$1 > 10 {print $4}'
+  218  cat airline_stats.csv | awk -F ',' '$1 > 10 {print $4}' |sort
+  219  cat airline_stats.csv | awk -F ',' '$1 > 10 {print $4}' |sort |uniq
+  220  cat airline_stats.csv | awk -F ',' -v Threshold=15 '$1 > Threshold {print $4}'
+  221  cat airline_stats.csv | awk -F ',' -v Threshold=15 '$1 > Threshold {print $4}' |sort |uniq
+  222  cat airline_stats.csv | awk -F ',' -v Threshold=150 '$1 > Threshold {print $4}' |sort |uniq
+  223  cat airline_stats.csv | awk -F ',' -v Threshold=1500 '$1 > Threshold {print $4}' |sort |uniq
+  224  cat airline_stats.csv | awk -F ',' -v Threshold=1500000 '$1 > Threshold {print $4}' |sort |uniq
+  225  cat airline_stats.csv | awk -F ',' -v Threshold=1500000 '$1+0 > Threshold {print $4}' |sort |uniq
+  226  cat airline_stats.csv | awk -F ',' -v Threshold=150 '$1+0 > Threshold {print $4}' |sort |uniq
+  227  cat airline_stats.csv | awk -F ',' -v Threshold=15 '$1+0 > Threshold {print $4}' |sort |uniq
+  228  cat airline_stats.csv | awk -F ',' '$1+0 > 10 {print $4}' |sort |uniq
+  229  history > a6_cmds.log
