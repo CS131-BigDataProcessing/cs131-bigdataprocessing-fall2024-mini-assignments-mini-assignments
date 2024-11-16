@@ -1,0 +1,8 @@
+# Delete all files in the /home/dumpling/temp directory every day at 2:00 AM
+0 2 * * * rm -rf /home/dumpling/temp/*
+
+# Run the backup script every Sunday at 3:00 AM
+0 3 * * 0 /home/dumpling/backup.sh
+
+# Send a disk usage report to the specified email every day at 8:30 AM
+30 8 * * * df -h | mail -s "Disk Usage Report" jsun5047@gmail.com
