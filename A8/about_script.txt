@@ -1,0 +1,3 @@
+It's crucial to remove spacings to standardize the data, this will make it more accurate when we clean the data
+Identifying rows with missing values is essential so that we can keep track of them when we clean the data and see if they skew the data. Then we can use right approach for addressing these gaps.
+I replace missing values with NA, since they still hold valuable info about the dataset. Keeping those rows provides a more comprehensive representation of the dataset than discarding them.
