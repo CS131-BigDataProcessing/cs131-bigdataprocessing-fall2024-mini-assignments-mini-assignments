@@ -1,4 +1,4 @@
-Overview
+
 This assignment involves creating and managing automated tasks using cron. The tasks include daily file cleanup, weekly system backups, and automated disk usage reports sent via email. 
 Below are the details of each cron job and how to set them up.
 
