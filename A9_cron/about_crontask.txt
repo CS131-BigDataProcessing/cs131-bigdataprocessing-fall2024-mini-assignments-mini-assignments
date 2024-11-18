@@ -6,6 +6,18 @@
 3. writing a command line for sending a disk usage report using Cron. Using 30 8 * * * df -h | mail -s "Disk Usage Report"lawtonfong@gmail.com, I am able to send disk usage reports to my email. 
 
 
+What other types of tasks (provide 2) could benefit from automation using cron or at?
+One type of task that benefits from automating tasks with cron or at would be Database Maintenance. This consists of regular database upkeep, like rebuilding indexes, cleaning up logs, or optimizing tables. Having tasks for these by scheduling these maintenance tasks to run automatically during off-peak hours, such as late at night, helps avoid any disruptions to regular operations and helps keep systems running smoothly. Another task that benefits from automation is data synchronization. Keeping files in sync across multiple servers is important for maintaining consistency, especially in environments with backups or disaster recovery systems. By setting up cron jobs to automatically sync files on a daily or hourly basis, it ensures that all systems stay up to date without needing manual intervention.
+
+
+What potential risks are there with poorly managed automated tasks, and how can you avoid them? 
+Poorly managed automated tasks can lead to several issues, like data loss and performance slowdowns. For instance, automated cleanup or backup jobs can accidentally delete important files or overwrite data if they're not set up correctly, especially if there's no verification for backups. This can be a serious problem if older versions of data are lost in the process. Additionally, running heavy automated tasks during peak usage times can significantly impact system performance, slowing down other applications and affecting users.
+
+To avoid these risks, people should thoroughly test your scripts in a staging environment before rolling them out in production. Scheduling resource heavy tasks during off peak hours can also help prevent performance issues. It's also a good idea to enable logging and monitoring for your automated jobs so you can track whether tasks are completing as expected and catch any problems early. Finally, using versioned backups rather than overwriting older ones ensures you have a backup if something goes wrong, allowing you to restore previous versions if needed.
+
+
+
+
 
 
 
