@@ -1,0 +1,46 @@
+#1. For identifying missing values, we chose to use the command awk -F',' 'NF < 16 { print "Line", NR ":", $0 }' AB_NYC_2019.csv to identify rows with missing values. We also used awk -F',' 'NF < 16 {count++} END {print count " rows have missing values"}' AB_NYC_2019.csv to find the number of rows with missing values. 
+
+#2. To handle the rows with missing values, we decided to use this command sed 's/,,/,N\/A,/g' AB_NYC_2019.csv > cleaned_AB_NYC_2019.csv for replacing empty values with N/A to reduce bias on the data and to preserve the data.
+
+
+#3. For removing duplicate entries, we tried to identify duplicate entries using awk -F',' 'seen[$0]++ {print "Duplicate Line:", NR, $0}' AB_NYC_2019.csv, but was unable to find any duplicate values
+
+
+#4. For identifying and handling outliers, we decided to first find the min and max value of the prices. awk -F',' 'NR > 1 && $10 ~ /^[0-9]+$/ { if ($10 > max || NR == 2) max = $10; if ($10 < min || NR == 2) min = $10; } END { print "Minimum Price:", min; print "Maximum Price:", max; }' AB_NYC_2019.csv. Using this command gave us the minimum and maximum values. We explored the data by finding the IQR awk -F',' 'NR > 1 && $10 ~ /^[0-9]+$/ {print $10}' AB_NYC_2019.csv | sort -n | awk '{
+    prices[NR] = $1
+} 
+END {
+    Q1 = prices[int(NR*0.25)]
+    Q3 = prices[int(NR*0.75)]
+    IQR = Q3 - Q1
+    print "Q1:", Q1, "Q3:", Q3, "IQR:", IQR
+}'
+. By getting the IQR values, we could determine whether the median, mode, or mean was best for identifying outliers. We initially chose to use the median, since the median would be less sensitive to extreme values. by using this command awk -F',' 'NR > 1 && $10 ~ /^[0-9]+$/ { prices[++count] = $10 } 
+END {
+    asort(prices)
+    median = (count % 2 == 1) ? prices[(count + 1) / 2] : (prices[count / 2] + prices[(count / 2) + 1]) / 2
+    threshold_high = median * 2
+    threshold_low = median / 2
+    outliers = 0
+    for (i = 1; i <= count; i++) {
+        if (prices[i] > threshold_high || prices[i] < threshold_low) outliers++
+    }
+    print "Median:", median, "Number of Outliers:", outliers
+}' AB_NYC_2019.csv
+
+we found that the amount of outliers was significant, so we decided to use the IQR to handle the outliers. By using this command, awk -F',' 'NR > 1 && $10 ~ /^[0-9]+$/ { prices[++count] = $10 } 
+END {
+    asort(prices)
+    Q1 = prices[int(count * 0.25)]
+    Q3 = prices[int(count * 0.75)]
+    IQR = Q3 - Q1
+    lower_bound = Q1 - 1.5 * IQR
+    upper_bound = Q3 + 1.5 * IQR
+    outliers = 0
+    for (i = 1; i <= count; i++) {
+        if (prices[i] < lower_bound || prices[i] > upper_bound) outliers++
+    }
+    print "Q1:", Q1, "Q3:", Q3, "IQR:", "Number of Outliers:", outliers
+}' AB_NYC_2019.csv
+This identified less outliers than the median, so we stuck with the median values since it could handle extreme values better. For handling outliers, we chose to keep the data the same to maintain the structure of the data.  
+
