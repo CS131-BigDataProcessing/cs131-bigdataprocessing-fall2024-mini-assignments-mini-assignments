@@ -1,0 +1,16 @@
+30 08 * * * echo "Good Morning"
+
+
+
+##setting up daily file cleanup using cron to deletes all files from a temporary directory at 2:00 AM daily
+0 2 * * * /bin/rm -rf /path/to/home/temp/*
+
+
+##Scheduling weekly system backup on Sundays at 3 AM
+0 3 * * SUN tar -czf /path/to/home/user/backups/backup-$(date +\%Y\%m\%d).tar.gz /path/to/home/user
+
+
+##send a daily disk usage report at 8:30 AM via email
+30 8 * * * df -h | mail -s "Disk Usage Report" lawtonfong@gmail.com
+
+

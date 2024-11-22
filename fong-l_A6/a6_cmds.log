@@ -1,0 +1,265 @@
+    1  insights-client --register
+    2  mkdir '<fonglawtonF>_A4_shell'
+    3  cd
+    4  cd '<fonglawtonF>_A4_shell'
+    5  touch class_practice.sh
+    6  vi class_practice.sh
+    7  sh class_practice.sh<lawtonfong>
+    8  sh class_practice.sh<fonglawtonF>
+    9  sh class_practice.sh<Lawton>
+   10  vi class_practice.sh
+   11  sh class_practice.sh<Lawton>
+   12  vi class_practice.sh
+   13  sh class_practice.sh<Lawton>
+   14  sh class_practice.sh Lawton
+   15  mkdir fonglawtonFI_A4
+   16  cd fonglawtonFI_A4
+   17  who 
+   18  date
+   19  $HOME
+   20  $USER
+   21  USER
+   22  touch echoing.sh
+   23  $USER
+   24  USER
+   25  $USER
+   26  $VARIABLE
+   27  $<VARIABLE>
+   28  vi echoing.sh
+   29  sh echoing.sh 
+   30  who
+   31  date
+   32  $HOME
+   33  $USER
+   34  HOME
+   35  USER
+   36  user
+   37  home
+   38  cd CS131_fa24_datafiles
+   39  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles.git
+   40  ls
+   41  cd CS131_fa24_datafiles
+   42  ls
+   43  cd Lec07
+   44  ls
+   45  cd lec07_class.sh
+   46  vi lec07_class.sh
+   47  cd
+   48  mkdir fongl_A4
+   49  cd fongl_A4
+   50  touch echoing.sj
+   51  touch echoing.sh
+   52  vi echoing.sh
+   53  ./echoing.sh
+   54  chmod ./echoing.sh
+   55  chmod +x echoing.sh 
+   56  ./echoing.sh
+   57  who
+   58  date
+   59  $HOME
+   60  $USER
+   61  $user
+   62  user
+   63  ls
+   64  cd fongl_A4
+   65  ls
+   66  cd echoing.sh
+   67  vi echoing.sh
+   68  ./echoing.sh
+   69  vi echoing.sh
+   70  ./echoing.sh
+   71  vi echoing.sh
+   72  ./echoing.sh
+   73  vi echoing.sh
+   74  ./echoing.sh
+   75  vi echoing.sh
+   76  ./echoing.sh Lawton 20
+   77  vi echoing.sh
+   78  ./echoing.sh Lawton 20
+   79  vi echoing.sj
+   80  vi echoing.sh
+   81  ./echoing sh lawton 20
+   82  ./echoing.sh lawton 20
+   83  ls
+   84  cd
+   85  ls
+   86  ls
+   87  cd CS131_fa24_datafiles
+   88  ls
+   89  cd
+   90  git clone https://github.com/CS131-BigDataProcessing/mini-assignments-lawtonfong.git
+   91  ls
+   92  cd mini-assignments-lawtonfong
+   93  ls
+   94  mkdir fong-l_A4
+   95  cd
+   96  ls
+   97  cd fongl_A4
+   98  ls
+   99  cd
+  100  ls
+  101  cd mini-assignments-lawtonfong
+  102  ls
+  103  cd fong-l_A4
+  104  mv fongl_A4/echoing.sh
+  105  mv fongl_A4/echoing.sh/
+  106  ~/fongl_A4/echoing.sh .
+  107  ls
+  108  mv /fongl_A4/echoing.sh .
+  109  mv /fongl_A4/echoing.sh
+  110  mv ~/fongl_A4/echoing.sh .
+  111  ls
+  112  git add echoing.sh
+  113  git commit -m "added echoing.sh for A4_Basic_Shell"
+  114  git config --global user.name "Lawton Fong"
+  115  git config --global user.email "lawton.fong@sjsu.edu"
+  116  git commit -m "added echoing.sh for A4_Basic_Shell"
+  117  git push origin main
+  118  ls
+  119  git push
+  120  git push origin main
+  121  ls
+  122  cd echoing.sh
+  123  vi echoing.sh
+  124  git push
+  125  git config --global user.email "lawtonfong@gmail.com"
+  126  git commit -m "added echoing.sh for A4_Basic_Shell"
+  127  git push
+  128  git status
+  129  git push origin main
+  130  git push
+  131  cd
+  132  ls
+  133  git push
+  134  git push origin main
+  135  cd fongl_A4
+  136  ls
+  137  cd
+  138  cd mini-assignments-lawtonfong
+  139  ls
+  140  git status
+  141  git push
+  142  git push origin main
+  143  git commit -m "added echoing.sh for A4_Basic_Shell"
+  144  git push origin main
+  145  git remote set-url origin https://lawtonfong@github.com/CS131-BigDataProcessing/mini-assignments-lawtonfong.git
+  146  git push origin main
+  147  ls -al ~/.ssh
+  148  ssh-keygen -t ed25519 -C "lawtonfong@gmail.com"
+  149  eval "$(ssh-agent -s)"
+  150  ~/.ssh/config
+  151  touch ~/.ssh/config
+  152  vim ~/.ssh/config
+  153  ssh-add ~/.ssh/id_ed25519
+  154  cat ~/.ssh/id_ed25519.pub
+  155  ssh -T git@github.com
+  156  chmod 644 ~/.ssh/id_ed25519.pub
+  157  ssh -T git@github.com
+  158  chmod 600 ~/.ssh/id_ed25519
+  159  ssh -T git@github.com
+  160  chmod 600 ~/.ssh/config
+  161  ssh -T git@github.com
+  162  ls
+  163  cd mini-assignments-lawtonfong
+  164  git status
+  165  git push origin main
+  166  git clone git@github.com:CS131-BigDataProcessing/mini-assignments-lawtonfong.git
+  167  ls
+  168  cd fong-l_A4
+  169  ls
+  170  vi echoing.sh
+  171  git push origin main
+  172  git remote -v
+  173  git remote set-url origin git@github.com:CS131-BigDataProcessing/mini-assignments-lawtonfong.git
+  174  git remote -v
+  175  git push origin main
+  176  cd
+  177  ls
+  178  cd mini-assignments-lawtonfong
+  179  ls
+  180  mkdir fong-l_A5
+  181  cd fong-l_A5
+  182  ls
+  183  touch age.sh
+  184  ls
+  185  vi age.sh
+  186  chmod +x age.sh
+  187  ./age.sh 5
+  188  vi age.sh
+  189  ./age.sh 5
+  190  ./age.sh 17
+  191  ./age.sh 48
+  192  ./age.sh 72
+  193  vi age.sh
+  194  ./age.sh 5
+  195  ./age.sh 17
+  196  ./age.sh 48
+  197  ./age.sh 72
+  198  touch temperature.sh
+  199  vi temperature.sh
+  200  chmod +x temperature.sh
+  201  ./temperature.sh 62
+  202  vi temperature.sh
+  203  ./temperature.sh 62
+  204  ./temperature.sh 5
+  205  ./temperature.sh 97
+  206  ./temperature.sh 73
+  207  ls
+  208  git status
+  209  git add .
+  210  git commit -m "added age.sh and temperature.sh"
+  211  git push origin main
+  212  ls
+  213  cd mini-assignments-lawtonfong
+  214  ls
+  215  mkdir fong-l_A6
+  216  ls
+  217  cd fong-l_A6
+  218  touch airline_inquiry.txt
+  219  cd mini-assignments-lawtonfong
+  220  ls
+  221  cd fong-l_A6
+  222  ls
+  223  cd
+  224  ls
+  225  cd CS131_fa24_datafiles
+  226  ls
+  227  git status
+  228  git pull
+  229  ls
+  230  git pull origin main
+  231  git branch
+  232  ls
+  233  git add Lec07/lec07_class.sh
+  234  git commit -m "Lecture 7"
+  235  git pull origin main
+  236  ls
+  237  cd CS131_fa24_datafiles
+  238  ls
+  239  cd Lec08
+  240  ls
+  241  awk -F, '{print $4}' airline_stats.csv
+  242  awk -F, ',' '{if (NR > 1) print $3}' airline_stats.csv | sort | uniq
+  243  awk =F ',' '{if (NR > 1) print $3]' airlines_stats.csv | sort | uniq
+  244  awk -F ',' '{if (NR > 1) print $3]' airlines_stats.csv | sort | uniq
+  245  awk -F ',' '{if (NR > 1) print $3}' airlines_stats.csv | sort | uniq
+  246  awk -F ',' '{if (NR > 1) print $3]' airline_stats.csv | sort | uniq
+  247  awk -F ',' '{if (NR > 1) print $3}' airlines_stats.csv | sort | uniq
+  248  awk -F ',' '{if (NR > 1) pring $3}' airline_stats.csv | sort | uniq
+  249  ls
+  250  cd CS131_fa24_datafiles
+  251  ls
+  252  cd Lec08
+  253  ls
+  254  awk -F, '{print $4}' airline_stats.csv | sort | uniq
+  255  awk -F, '$1 > 10 {print $4}' airline_stats.csv  
+  256  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  257  awk -v threshold=15 -F, '$1 > threshold {print $4}' airline_stat.csv | sort | uniq
+  258  awk -v threshold=15 -F, '$1 > threshold {print $4}' airline_stats.csv | sort | uniq
+  259  ls
+  260  cd
+  261  ls
+  262  cd mini-assignments-lawtonfong
+  263  ls
+  264  cd fong-l_A6
+  265  history > a6_cmds.log
