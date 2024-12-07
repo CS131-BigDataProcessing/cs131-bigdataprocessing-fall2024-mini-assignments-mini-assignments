@@ -1,0 +1,16 @@
+ 1001  cd
+ 1002  cd CS131
+ 1003  cd CS 131
+ 1004  cd /Users/jateshjoshi/Desktop/CS\ 131 
+ 1005  awk -F, '{print $1}' airline_stat.csv | sort | uniq\n
+ 1006  awk -F, '{print $1}' airline_stat.csv | sort | uniq\n
+ 1007  awk -F, '{print $1}' airline_stat.csv | sort | uniq\n
+ 1008  awk -F, '{print $1}' airline_stat.csv | sort | uniq
+ 1009  pwd
+ 1010  ls\n
+ 1011  awk -F, '{print $1}' airline_stats.csv | sort | uniq\n
+ 1012  awk -F, '{print $4}' airline_stats.csv | sort | uniq\n
+ 1013  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort\n
+ 1014  awk -v threshold=15 -F, '$1 > threshold {print $4}' airline_stats.csv | sort\n
+ 1015  awk -F, '{print $4}' airline_stats.csv | sort | uniq > airline_inquiry.txt\n
+ 1016  history > a6_cmds.log\n
