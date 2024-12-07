@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: crime_test
+Version: 0.1.0
+Summary: A package for validating and analyzing crime dataset
+Home-page: https://github.com/CS131-BigDataProcessing/cs131-bigdataprocessing-fall2024-mini-assignments-mini-assignments/crime_test
+Author: Lawton Fong
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: numpy
