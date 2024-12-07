@@ -1,0 +1,3 @@
+1. **Types of tasks for cron/at**: Cron and `at` can automate tasks like regular log file rotation to manage disk space or periodic system updates to ensure security patches are applied. These tasks benefit from automation to reduce manual oversight and improve system maintenance efficiency.
+
+2. **Risks of poorly managed automated tasks**: Automated tasks, if not properly managed, can lead to missed backups, incomplete data recovery, or system overload. Regular monitoring, clear logging, and automated alerts can help mitigate these risks.

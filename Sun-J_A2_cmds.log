@@ -1,0 +1,16 @@
+ 1295  cd
+ 1296  cd cs131
+ 1297  ls
+ 1298  cd CS131
+ 1299  ls
+ 1300  cd lec8
+ 1301  ls
+ 1302  cd CS131_fa24_datafiles
+ 1303  ls
+ 1304  cd Lec02
+ 1305  ls
+ 1306  egrep wor goodluck.txt
+ 1307  egrep dred goodluck.txt
+ 1308  egrep 'Good luck, babe' goodluck.txt
+ 1309  egrep 'Good luck, babe' goodluck.txt | wc -l -w
+ 1310  egrep 'Good luck, babe' goodluck.txt | wc -l -w > Sun-j_A2_counts.txt
