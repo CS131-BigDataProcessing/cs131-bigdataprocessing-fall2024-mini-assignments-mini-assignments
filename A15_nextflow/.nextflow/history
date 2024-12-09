@@ -1,0 +1,17 @@
+2024-12-08 15:13:26	-	ridiculous_shockley	-	f3f794344b014d33f336291f112fae2e	0ae0024c-cc24-4591-af93-69ce74d18e8a	nextflow run allcaps.nf
+2024-12-08 15:14:19	-	zen_bohr	-	447e4c834bc1d825a549486c7a41afec	8e9042ae-d247-46f8-91b1-769c5aefe253	nextflow run allcaps.nf
+2024-12-08 15:22:03	3s	awesome_brown	ERR	30f270279493591ffec0cecef7bc0442	3d105dcc-6d42-4dd9-8576-f10626fb5510	nextflow run allcaps.nf
+2024-12-08 15:24:00	3s	berserk_bohr	OK	fa3e09be4ae86c5f46771de3e215e794	ad281e17-df68-48a1-a951-e3c0b5fbec0b	nextflow run allcaps.nf
+2024-12-08 15:25:04	2.2s	tender_aryabhata	OK	fa3e09be4ae86c5f46771de3e215e794	62f95da6-ec8c-4a5d-a50f-9baf68a14c10	nextflow run allcaps.nf --input_string 'Hello World'
+2024-12-08 15:43:34	2.7s	intergalactic_fourier	OK	29a8803ddaf452e5765bcb81b7f6d7e1	c5c6a665-d0e1-40d5-84d7-5c17783057ef	nextflow run allcaps.nf --input_string 'Hello World'
+2024-12-08 15:46:26	2.5s	focused_chandrasekhar	OK	29a8803ddaf452e5765bcb81b7f6d7e1	b32739c2-d5a6-4718-91d3-2ddcfd3b06a2	nextflow run allcaps.nf
+2024-12-08 16:21:50	3.5s	disturbed_goldstine	ERR	69ad074f6a75d96b7f2e5783446951f7	0a056c23-b05d-4351-90c3-1ada2d4b8c7f	nextflow run allcaps.nf
+2024-12-08 16:22:46	2.2s	silly_kilby	ERR	d7a72224aab9f4ada5a0199a7a6b542d	405ce58c-efb3-45e5-9862-5fbe4bf5d2be	nextflow run allcaps.nf
+2024-12-08 16:27:54	2.6s	pedantic_goodall	ERR	d397bc2e03be124c07277c39013d4aba	79d12aae-ea80-4984-ae0b-a51efbed9de0	nextflow run allcaps.nf
+2024-12-08 16:29:31	-	high_goodall	-	3d8663cda358330ca5cd8f7565f409ef	ce360c54-545e-4cc2-86f7-6255130e8d27	nextflow run allcaps.nf
+2024-12-08 16:31:02	-	amazing_noether	-	bfc076685e9a26f785a459fdd99725e3	ef229629-0f9e-4141-b690-8002dbeb03da	nextflow run allcaps.nf
+2024-12-08 16:32:09	-	fervent_curran	-	8de2dc2e5bf7bf142936d9a7d2092107	8b5a554a-183d-4810-9c5b-1af62d9294c4	nextflow run allcaps.nf
+2024-12-08 16:47:16	-	berserk_caravaggio	-	fd7d3a34cf83edaba2384eafad99004d	07e4b206-97e1-4c68-8beb-e537d6753682	nextflow run allcaps.nf
+2024-12-08 16:47:50	2.4s	evil_yalow	OK	acf5aad599d92a43906e1f3ecebd86cc	c3a43e64-7b10-4e5e-b5cf-a1f2848035bc	nextflow run allcaps.nf
+2024-12-08 16:48:46	-	reverent_dalembert	-	fcdd296eb49a46f85e1c8b7bd74b59c1	6d1779ed-a5ac-4bfb-bc17-93a6059f4ed8	nextflow run allcaps.nf
+2024-12-08 16:50:42	3.4s	angry_crick	OK	6cc3c4b8d4100a8cb27cef49565daa4e	f626b788-2a58-41e8-a68d-25e72ba8ca9e	nextflow run allcaps.nf
