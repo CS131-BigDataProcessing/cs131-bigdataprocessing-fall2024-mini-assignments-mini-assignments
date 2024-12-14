@@ -1,4 +1,4 @@
-My classmate's crime dataset package was well-structured, and the installation process was straightforward, 
+I reviewed my classmate Aaron's crime dataset package and it was well-structured, and the installation process was straightforward, 
 with clear instructions provided in the README file. The functions were well thought out, and 
 their intended behavior was explained adequately. 
 My classmate was able to install the packages and run the files with no errors. 
